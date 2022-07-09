@@ -1,68 +1,133 @@
-<DOCTYPE>
-    <html>
-        <head>
-           <meta name="viewport" content="width=device-width, iniatial-scale 1.0">
-    <title>POL TECHNOLOGIES</title>
-        <link rel="stylesheet" href="styles.css">
-    
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale 1.0">
+        <title>pol technologies</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/60b34166f6.js" crossorigin="anonymous"></script>
+     
       </head>
-    </html>
     <body>
-      <section class="header">
+     <section class="header">
         <nav>
-          <a href="index.html"><img src="images/logo.jpg"></a>
-            <div class="nav-links">
-                <ul>
-              <li><a href="">HOME</a></li>
-               <li><a href="">ABOUT US</a></li>
-               <li><a href="">SERVICE</a></li>
-               <li><a href="">CONTACT</a></li>
-                    
-            </ul>
+            <a href="index.html"><img src="images/poltech_logo.jpg.png" alt="poltechnology logo"></a>
+            <div class="nav-links" id="nav-links"> 
+              <i class="fa-solid fa-xmark" onclick="hiddenMenu()"></i>
+              <ul>
+               <li><a href="header.html">HOME</a></li> 
+               <li><a href="about.html">ABOUT</a></li>
+               <li><a href="service.html">SERVICE</a></li>
+               <li><a href="contact.html">CONTACT</a></li>
+                </ul>
             </div>
-          </nav>
-          <div class="text-box">
-          <h1>web design</h1>
-              <p>Technology company deals technology solution and also offers technology suport</p>
-              <a href="" class="hero-btn">Contact us</a>
-          
-          </div>
-        </section> 
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+         </nav>
+         <div class="text-box">
+          <h1>Pol Technology</h1>
+             <p>Website design company</p>
+             <a href="" class="hero-btn">Contact Us</a>
+         </div>
+
         
-        <!-------services-------->
+        </section>
         
-        <section class="services">
-        <h1>services we offer</h1>
-            <p>we offer web development, web-hosting,app development also we do creating of<br>fliers,bussines cards,logos,bronchures and apps</p>
-            
-            <div class="row">
+        <!------------service------------>
+        
+    <section class="service">
+        <h2>Services we offer</h2>
+        <p>These are services we offer for our clients</p>
+        
+        <div class="row">
+          <div class="service-col">
+            <h3>web design</h3>
+              <p>We develop website for small business and support them to grow their business with perfect website.</p>
+            </div>
              <div class="service-col">
-                <h3>web development</h3>
-                 <p>inclued free domain once your website is created and free services and<br>your website will be published in the internet once created</p>
-                </div>
-                <div class="service-col">
-                <h3>app development</h3>
-                 <p>inclued free domain once your website is created and free services and<br>your website will be published in the internet once created</p>
+            <h3>mobile app development</h3>
+              <p>We design apps for business to make it easy for customers to acces and order product and service through mobile when they download and install the app.</p>
             </div>
-                <div class="service-col">
-                <h3>web-hosting</h3>
-                    <p>inclued free domain once your website is created and free services and<br>your website will be published in the internet once created</p></div>s
-                  </div>  
-        </section>
-        <!-------contact------>
-        
-        <section class="cta">
-        <h1>contact us for our services<br>anywhere from the world</h1>
-            <a href="" class="hero-btn">CONTACT US</a>
+             <div class="service-col">
+            <h3>logo design</h3>
+              <p>We design logo for business to make the business look great with a perfect logo.</p>
+            </div>
+        </div>
         </section>
         
-         <!-------footer------>
+     
         
-        <section class="footer">
-            <h4>About Us</h4>
-            <p>its a digital technology company and its offers technology support and solution around the world, offers good services to there customers. <br>in africa we are located in 5 countries include cameroon,egypt,kenya, south Africa and algeria </p>
+        <!---------contact-------->
+        
+        <section class="contact">
+             <h1>Contact us</h1>
+            <p>Enroll for our service around the world at a fair price, reach us</p>
+           <a href="" class="hero-btn">Contact Us</a>
         
         </section>
+        
+           <!----------about---------->
+        
+        <section class="about">
+            <h1>About us</h1>
+        <p>We are information technology company provide you with information of technology along with other we also develop website for small business and support them to grow there business with perfect website. We also design logos, mobile apps and business cards.</p>
+        <div class="icons">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          
+        </div>
+        <p>made with <i class="fas fa-heart"></i>by pol technology</p>
+        
+        
+      
+        
+        <!-------javascript------->
+        
+        <script>
+          var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+               navLinks.style.right = "0"; 
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+            
+          
+        
+          
+
+        </script>
+      
+        
+    </section>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
     </body>
     
     
@@ -71,27 +136,4 @@
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    </html>
